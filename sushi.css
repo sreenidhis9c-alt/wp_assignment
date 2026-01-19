@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #020617;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url('https://picsum.photos/1200/600');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #020617;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #020617;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
